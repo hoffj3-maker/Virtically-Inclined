@@ -1,0 +1,468 @@
+/*  ----------   FONTS ------------ */
+@font-face{
+	font-family: redshift;
+	src: url(Fonts/redshift-black.ttf);
+	font-weight: 900;
+}
+
+@font-face{
+	font-family: redshift;
+	src: url(Fonts/redshift-bold.ttf);
+	font-weight: 700;
+}
+
+@font-face{
+	font-family: redshift;
+	src: url(Fonts/redshift-book.ttf);
+	font-weight: 500;
+}
+@font-face{
+	font-family: redshift;
+	src: url(Fonts/redshift.ttf);
+	font-weight: 600;
+}
+
+@font-face{
+	font-family: redshift;
+	src: url(Fonts/redshift-1.ttf);
+	font-weight: 400;
+}
+
+@font-face{
+	font-family: redshift;
+	src: url(Fonts/redshift-book-oblique.ttf);
+	font-weight: 300;
+}
+
+@font-face{
+	font-family: redshift;
+	src: url(Fonts/redshift-bold-oblique.ttf);
+	font-weight: 800;
+}
+
+@font-face{
+	font-family: Anzeigen;
+	src: url(Fonts/Anzeigen-Grotesk-T-Regular.otf);
+	font-weight: 900;
+}
+
+
+a1 { font-family: redshift, sans-serif; font-weight: 400; text-align: center; }
+
+h2 { font-family: redshift, sans-serif; font-weight: 700; 
+	font-size: 35px; align-content: left}
+
+h1 {font-family: Anzeigen, sans-serif;
+	padding: 0;
+	font-size: 75px;
+	line-height: 100%;
+	font-weight: 300px;
+	letter-spacing: 1px;
+	color: black;
+	align-content: left;
+	}
+
+h3 {font-family: redshift, sans-serif;
+	padding: 0;
+	font-size: 24px;
+	line-height: 100%;
+	font-weight: 900px;
+	letter-spacing: 2px;
+	color: #B3D334;}
+
+.h3 {font-family: "Anzeigen Grotesk", sans-serif;
+	padding: 0;
+	font-size: 24px;
+	line-height: 100%;
+	font-weight: 300px;
+	letter-spacing: 2px;
+	color: #B3D334;}
+
+.h3:hover {color: #89B14B;}
+
+.h5 {font-family: Anzeigen, sans-serif;
+	padding: 0;
+	font-size: 24px;
+	line-height: 100%;
+	font-weight: 900px;
+	letter-spacing: 2px;
+	text-decoration: black underline;
+	color: #D5922A;}
+
+.h5:hover {color: #E6C27A;}
+
+h4 {font-family: Anzeigen, sans-serif;
+	padding: 0;
+	font-size: 60px;
+	line-height: 100%;
+	letter-spacing: -2px;
+	color: #D5922A;}
+
+a {font-family: redshift; font-weight: 400;}
+
+p {font-family: redshift}
+
+li { line-height: 140%;}
+
+p1 {font-family: redshift, sans-serif; font-weight: 400; align-content: center; text-align: center;}
+
+.p2 {font-family: Anzeigen, sans-serif; align-content: left; text-align: left; font-size: 26px; letter-spacing: 0.5px;}
+
+li {font-family: redshift;}
+
+ul {font-family: redshift;}
+
+header {background-color: #FFFFFF; padding: 16px 4%;} 
+
+body {font-family: redshift, sans-serif;
+	font-weight: 500;
+		color: black;
+		background-color: #FFFFFF;}
+
+nav li {list-style: none;
+		padding-left: 0px;}
+
+nav ul {display: flex;
+		justify-content: center;
+		gap: 16px;
+		padding-left: 0px;}
+
+.nav-bar { list-style: none; 
+			background-color: #89B14B; 
+			text-align: center; 
+			color: black; 
+			font-size: 20px;
+			font-family: redshift, sans-serif;
+			font-weight: 700;
+			display: flex-direction;
+			height: 48px;
+			margin-top: -100px;}
+
+.nav-bar2 { list-style: none; 
+			background-color: #FFFFFF; 
+			text-align: center;
+			justify-items: center; 
+			color: black; 
+			font-size: 20px;
+			font-family: redshift, sans-serif;
+			font-weight: 700;
+			display: flex-direction;
+			height: 50px;
+			margin-top: -300px;
+			margin-right: 20px;}
+
+.nav-wrap {display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: center;}
+
+.nav-link {z-index: 8;}
+
+.sticky-nav {position: sticky;
+    	top: 0;
+		background-color: white;}
+.sticky-nav2 {position: sticky;
+    	top: 0;
+		background-color: white;}
+
+.text-black {color: black;}
+
+.text-white {color: white;}
+
+.text-white2 {colour: white}
+.text-white2:hover {colour: #D5922A;}
+
+.text-right {text-align: right;}
+
+.text-center {text-align: center;}
+
+.announcment { background-color: #D5922A; 
+				color: black; 
+				text-align: center;
+				font-weight: 100px;
+				font-size: 25px;
+				margin-top: -1px;
+				padding: 5px 10px}
+
+.list-no-bullets {
+	list-style: none;
+	padding-left: 0px;
+	text-decoration: none;
+	transition: color 0.2s ease;}
+
+.list-no-bullets:hover {color: #D5922A}
+
+.list-no-bullets2 {
+	list-style: none;
+	padding-left: 0px;
+	text-decoration: none;}
+
+.button {display: inline-block;
+	    font-family: Anzeigen;
+		color: white;
+		padding: 10px 18px;
+		background-color: #B3D334;
+		text-decoration: none;
+		font-weight: 900;
+		font-size: 35px;
+		transition: background 0.2s ease; 
+		border: none;}
+
+.button:hover {background-color: #89B14B;}
+
+.button-secondary { display: inline-block;
+					font-family: Anzeigen;
+					font-weight: 900;
+					font-size: 35px;
+					color: white;
+					padding: 10px 18px;
+					background-color: #89B14B;
+					text-decoration: none;
+					border: none;
+					transition: background 0.2s ease;}
+
+.button-secondary:hover {background-color: #B3D334;}
+
+.button-secondary2 { display: inline-block;
+					font-family: redshift;
+					font-weight: ;
+					color: white;
+					padding: 10px 18px;
+					background-color: #89B14B;
+					text-decoration: none;
+					border: none;
+					transition: background 0.2s ease;}
+
+.button-secondary2:hover {background-color: #B3D334;}
+
+.button-3 {display: inline-block;
+					font-family: redshift;
+					color: white;
+					padding: 10px 18px;
+					background-color: #D5922A;
+					text-decoration: none;
+					font-weight: ;
+					font-size: px;
+					transition: background 0.2s ease;
+					justify-content: center;
+					}
+
+.button-3:hover {background-color: #E6C27A;}
+
+.button-4 {display: inline-block; font-family: redshift; font-weight: 600}
+.button-4:hover {color: #D5922A;}
+
+.button-5 {display: inline-block; font-family: redshift; font-weight: 700}
+.button-5:hover {color: #D5922A;}
+
+.position-relative { position: relative; }
+
+.position-absolute { position: absolute; }
+
+.z-index-2 { position: relative; z-index: 2; }
+
+.footer-meta { margin-top: 200px; margin-left: 100px; margin-bottom: 0px;}
+
+.footer-test {background-color: black;
+				background-size: cover;
+				background-position: center;
+				background-attachment: fixed;
+				height: 600px;
+				width: 30%;
+				position: absolute;
+				right: -15%;
+				top: -30%;}
+
+.flex-between {display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+				height: 100%;
+				align-items: start;}
+
+.card-img { border-radius: 150px; width: 150px; height:150px; margin-right: 250px;}
+
+.card-img2 { border-radius: 100px; width: 100px; height:100px; margin-right: 465px; }
+
+.card-img-wrap {width: 650px; justify-items: center; margin-right: -150px; margin-top: 25px;}
+
+.card-img-wrap2 {width: 650px; justify-items: center; margin-left: 50px; margin-top: -25px;}
+
+.card-img-wrap3 {width: 300px; height: 350px; justify-items: center; margin-top: 40px; }
+
+.card-img-wrap4 {width: 400px; height: 300px; justify-items: center; margin-top: 40px;margin-left: 50px;padding: 25px 25px; margin-bottom: -45px;}
+
+.card-img-wrap5 {width: 600px; height: 250px; justify-items: center; margin-top: 40px;margin-left: 50px;padding: 25px 25px; margin-bottom: -45px;}
+
+.logo1 {width:250px; height: 125px; padding-left: 55px; padding-top: 5px;}
+
+.logo2 {width:150px; height: 225px; margin-left: -50px; margin-top: -20px; rotate: -55deg; position: absolute; z-index: 10;}
+
+.logo3 {width: 1465px; position: relative; display: flex-direction; z-index: 1; margin-top: -118px;}
+
+.arrow-img {max-height: 25px; max-width: 25px;  }
+
+.arrow-img2 {max-height: 25px; max-width: 25px; rotate: 180deg; }
+
+.Cards-img { padding: 0px 350px; margin-top: -40px; justify-self: center; width:400px;  }
+
+.shirt-img {justify-self: center; width: 200px; height: 300px; border-radius: 30px; margin-left: 125px; margin-top: 20px;}
+
+.text-wrap {margin: 0px 50px; justify-items: center;}
+
+.box-line {background-color: #D5922A; width: relative; height: 10px; z-index: 1;}
+
+.box-line2 {background-color: #89B14B; width: relative; height: 10px; z-index: 1;}
+
+.box-line3 {background-color: #000000; width: relative; height: 10px; z-index: 1;}
+
+.box-line4 {background-color: #89B14B; width: relative; height: 30px; z-index: 1; margin-bottom: 50px;}
+
+.space { background-color: ; width: relative; height: 20px; z-index: 1;}
+
+.newsletter-form { display: grid; 
+					grid-template: 1fr / 1fr 1fr; 
+					align-items: end;
+					gap: 32px;}
+
+.imput-lable { color: text-black; 
+				display: inline-block; 
+				margin-bottom: 10px;
+				width: 100px;}
+
+.imput-lable2 { color: text-white; 
+				display: inline-block; 
+				margin-bottom: 10px;
+				width: 100px;}
+
+
+.imput-lable-2 { color: black; 
+				display: inline-block; 
+				margin-bottom: 10px;}
+
+.imput-feild { width: 100%; 
+				border: none; 
+				height: 35px; 
+				padding: 4px 10 px;}
+
+.text-area { width: 100%; height: 300px;}
+
+.Span2 {grid-column: 1/ span 2;}
+
+.x-img { position: relative; width: 50px; height: 30px; margin-left: 1100px;}
+
+.self-start { justify-self: self-start; }
+
+.form-group {grid-row: 3;}
+
+
+
+	/* MOBILE BREAKPOINT */
+
+@media screen and (max-width: 478px) {
+
+	.announcment { 
+				font-size: 10px;
+				}
+
+	.button-secondary {margin-top: -15px; font-family: redshift;
+					font-size: 10px; ;
+				}
+
+	.button-secondary:hover {background-color: #B3D334;}
+	
+	.nav-bar { list-style: none; 
+			background-color: #89B14B; 
+			text-align: center; 
+			color: black; 
+			font-size: 20px;
+			font-family: redshift, sans-serif;
+			font-weight: 700;
+			display: flex-direction;
+			height: 48px;
+			margin-top: -200px;}
+
+	h2 { 
+	font-size: 20px; align-content: center;text-justify: center}
+
+	.h1 { margin-top: 145px; margin-bottom: 50px;
+	font-size: 35px; justify-content: center; text-justify: center;
+	
+	}
+
+	h1 {
+	font-size: 25px;text-justify: center;
+	
+	}
+
+	h3 {
+		font-size: 12px;
+		}
+
+	.h3 {
+		font-size: 12px;
+		}
+
+
+	.h5 {
+		font-size: 12px;
+ 		}
+
+
+	h4 {
+		font-size: 30px;
+		}
+
+	a {font-size: ;}
+	
+	a1 { font-size: }
+
+	p {font-family: redshift}
+
+	li { line-height: 140%;}
+
+	p1 {font-family: redshift, sans-serif; font-weight: 400; font-size: 10px}
+
+	p2 {font-family: redshift, sans-serif; align-content: center; text-align: center; font-weight: 400;}
+
+	.p2 {font-family: Anzeigen, sans-serif; align-content: left; text-align: left; font-size: 16px}
+
+	li {font-family: redshift;}
+	ul {font-family: redshift;}
+
+	p3 {font-family: redshift, sans-serif;
+		justify-items: center; margin-left: 560px;}
+	
+	.card-img { border-radius: 150px; width: 150px; height:150px; margin-right: 250px;}
+
+	.card-img2 { border-radius: 100px; width: 100px; height:100px; margin-right: 465px; }
+
+	.card-img-wrap {width: 250px; justify-items: center; margin-left: -205px; margin-top: -50px;}
+
+	.card-img-wrap2 {width: 350px; justify-items: center; margin-left: 50px; margin-top: -45px;}
+
+	.card-img-wrap3 {width: 300px; height: 350px; justify-items: center; margin-top: 40px; }
+
+	.card-img-wrap4 {width: 400px; height: 300px; justify-items: center; margin-top: 40px;margin-left: 50px;padding: 25px 25px; margin-bottom: -45px;}
+
+	.card-img-wrap5 {width: 600px; height: 250px; justify-items: center; margin-top: 40px;margin-left: 50px;padding: 25px 25px; margin-bottom: -45px;}
+
+	.logo1 {width:250px; height: 125px; margin-left: 45px;}
+
+	.logo2 {width:150px; height: 225px; margin-left: -50px; margin-top: -20px; rotate: -55deg; position: absolute; z-index: 10;}
+
+	.logo3 {width: 478px; position: relative; display: flex-direction; z-index: 1; margin-top: -218px;}
+
+	.arrow-img {max-height: 25px; max-width: 25px;  }
+
+	.arrow-img2 {max-height: 25px; max-width: 25px; rotate: 180deg; }
+
+	.Cards-img { padding: 0px 350px; margin-top: -40px; justify-self: center; width:400px;  }
+
+	.shirt-img {justify-self: center; width: 200px; height: 300px; border-radius: 30px; margin-left: 125px; margin-top: 20px;}
+
+
+}
+/* I now know why its important to use styles and organize them as I go through and try to make it mobil responive 
+its really hard as I have created a lot of in text css that do not affect the content the same why when I place it in a class and not in-line (idk how to fix what I've done lol), 
+I shall try hard though*/
+
